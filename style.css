@@ -1,0 +1,61 @@
+body {
+    font-family:Helvetica;
+}
+
+.page-title {
+    background-image: url(images/pattern.webp);
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    margin: auto;
+    padding: 30px;
+    position: static;
+    font-size: xx-large;
+    text-align: center;
+    color: aqua;
+}
+
+li a:hover {
+    color:rgb(93, 223, 93);
+    transition: 0.5s;
+}
+    
+
+nav {
+    background-color: royalblue;
+}
+
+#brushes {
+    background: linear-gradient(to right, mediumspringgreen, white);
+}
+
+#frames {
+    background: linear-gradient(to right, lightcoral, white);
+}
+
+#paint {
+    background: linear-gradient(to right, skyblue, white);
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
